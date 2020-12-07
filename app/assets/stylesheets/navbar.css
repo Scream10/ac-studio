@@ -82,6 +82,19 @@ nav {
     -webkit-transition: .3s;
     transition: .3s;
   }
+
+  .space.slider:before {
+    position: absolute;
+    box-shadow: 0 2px 5px rgba(255,69,0,.1);
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 14px;
+    bottom: -1px;
+    background-color: white;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
   
   input:checked + .slider {
     background-color: ccc;
