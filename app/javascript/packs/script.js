@@ -91,7 +91,7 @@ ac.addEventListener("mouseleave", () => {
 });
 
 o.addEventListener("mouseover", () => {
-  o.textContent = "Objet";
+  o.textContent = "Object";
   o.style.color = "#649d66";
 });
 
