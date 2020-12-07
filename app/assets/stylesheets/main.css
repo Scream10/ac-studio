@@ -46,8 +46,8 @@ body {
   
   #project-year-2017 {
     position: absolute;
-    bottom: 30px;
-    left: 233px;
+    top: -15px;
+    left: 2491px;
     color: #649d66;
   }
   
@@ -59,22 +59,22 @@ body {
   
   #project-year-2018 {
     position: absolute;
-    top: -15px;
-    left: 737px;
+    bottom: 30px;
+    left: 1739px;
     color: #649d66;
   }
   
   #project-year-2019 {
     position: absolute;
-    bottom: 30px;
-    left: 1243px;
+    top: -15px;
+    left: 985px;
     color: #649d66;
   }
   
   #project-year-2020 {
     position: absolute;
-    top: -15px;
-    left: 1743px;
+    bottom: 30px;
+    left: 233px;
     color: #649d66;
   }
   
