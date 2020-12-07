@@ -4,6 +4,8 @@ let mouseCursor = document.querySelector(".cursor");
 let pictures = document.querySelectorAll(".pictures");
 let mail = document.querySelectorAll(".mail");
 let ac = document.getElementById("ac");
+let o = document.getElementById("o");
+let s = document.getElementById("s");
 let background = document.querySelectorAll(".project-chronology");
 let year = document.querySelector("#project-year");
 let chair = document.querySelectorAll(".chair-front");
@@ -63,21 +65,50 @@ chair.forEach(c => {
 
 // -------------CARD INFO DISPLAY-------------- //
 
+ac.addEventListener("click", showInfo);
+gray.addEventListener("click", hideInfo);
+
 function showInfo() {
   info.classList.add('open');
   gray.classList.add('open');
-}
+};
+
 function hideInfo() {
   info.classList.remove('open');
   gray.classList.remove('open');
-}
+};
 
 // -------------NAVBAR EFFECT---------------- //
 
-function changeText(obj, text, color) {
-  obj.textContent = text;
-  obj.style.color = color;
-};
+ac.addEventListener("mouseover", () => {
+  ac.textContent = "STUDIO";
+  ac.style.color = "#70C9FC";
+});
+
+ac.addEventListener("mouseleave", () => {
+  ac.textContent = "AC";
+  ac.style.color = "#649d66";
+});
+
+o.addEventListener("mouseover", () => {
+  o.textContent = "Objet";
+  o.style.color = "#649d66";
+});
+
+o.addEventListener("mouseleave", () => {
+  o.textContent = "O";
+  o.style.color = "#649d66";
+});
+
+s.addEventListener("mouseover", () => {
+  s.textContent = "Space";
+  s.style.color = "#70C9FC";
+});
+
+s.addEventListener("mouseleave", () => {
+  s.textContent = "S";
+  s.style.color = "#70C9FC";
+});
 
 // ----------HOVER YEAR COLOR RED------------ //
 
