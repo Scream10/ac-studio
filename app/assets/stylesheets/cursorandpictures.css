@@ -175,6 +175,22 @@
     max-height: 18rem;
     max-width: 18rem;
   }
+
+  #pictures-cari {
+    position: absolute;
+    top: 80px;
+    left: -120px;
+  }
+  
+  #pictures-cari:hover .pictures-title {
+    opacity: 1;
+  }
+  
+  #pictures-cari img {
+    position: relative;
+    max-height: 18rem;
+    max-width: 18rem;
+  }
   
   .show-pictures {
     visibility: hidden;
