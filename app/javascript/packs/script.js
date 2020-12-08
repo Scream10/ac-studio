@@ -152,10 +152,11 @@ pictures2020.forEach(pictures => {
 
 let showPicturesHide = document.querySelector(".show-pictures-hide");
 let openPicHide = document.querySelector(".open-pictures");
+let lastPictureHide = document.querySelector(".lastpicturehide");
 
-function showLastPictures() {
+lastPictureHide.addEventListener("click", () => {
   showPicturesHide.classList.remove('active');
-}
+});
 
 document.addEventListener('mouseup', function(e) {
   if (!openPicHide.contains(e.target)) {

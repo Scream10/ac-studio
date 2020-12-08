@@ -266,6 +266,10 @@
     overflow-x: hidden;
     z-index: 10;
   }
+
+  .show-pictures-blue.active {
+    background-color: #f1f8ff;
+  }
   
   .show-pictures.active::-webkit-scrollbar {
     width: 11px;
