@@ -21,11 +21,11 @@ body {
     position: relative;
     height: 80vh;
     min-width: 250px;
-    border: 1px solid #BFCDDB;
+    border: 1px solid #64abe8;
     border-right: 0px;
     flex-shrink: 0;
     transition: 0.5s ease;
-    background-color: #f1f4f7;
+    background-color: #f1f8ff;
   }
   
   #master-project-chronology {
@@ -33,7 +33,7 @@ body {
     display: flex;
     overflow-y: hidden;
     position: relative;
-    height: calc(100vh - 84px);
+    height: calc(100vh - 92px);
   }
   
   #master-project-chronology::-webkit-scrollbar {
@@ -59,7 +59,7 @@ body {
   
   #project-year-2018 {
     position: absolute;
-    bottom: 30px;
+    bottom: 22px;
     left: 1739px;
     color: #649d66;
   }
@@ -73,7 +73,7 @@ body {
   
   #project-year-2020 {
     position: absolute;
-    bottom: 30px;
+    bottom: 22px;
     left: 233px;
     color: #649d66;
   }
@@ -94,7 +94,7 @@ body {
     z-index: 1000;
     left: 30%;
     overflow-y: scroll;
-    height: calc(100vh - 84px);
+    height: calc(100vh - 92px);
     bottom: 0;
   }
   
@@ -140,7 +140,7 @@ body {
     bottom: 0;
     position: absolute;
     width: 100%;
-    height: calc(100vh - 84px);
+    height: calc(100vh - 92px);
     z-index: 500;
     display: none;
   }
