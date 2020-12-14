@@ -6,16 +6,16 @@ body {
     box-sizing: border-box;
   }
 
-  .open {
+  .openning {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     pointer-events: none;
-    z-index: 9999;
+    z-index: 9000;
   }
-  .open .layer {
+  .openning .layer {
     position: absolute;
     top: 0;
     left: 0;
@@ -48,7 +48,7 @@ body {
     height: 30px;
     background-color: rgba(0 ,0 ,0 ,.6);
   }
-  .open .layer
+  .openning .layer
   {
     background: white;
     animation-delay: 2s;
@@ -160,10 +160,10 @@ body {
     position: fixed;
     width: 55%;
     background-color: rgba(112,201,252,.6);
-    z-index: 1000;
+    z-index: 9999;
     left: 30%;
     overflow-y: scroll;
-    height: calc(100vh - 92px);
+    height: 100vh;
     bottom: 0;
   }
   
@@ -209,8 +209,8 @@ body {
     bottom: 0;
     position: absolute;
     width: 100%;
-    height: calc(100vh - 92px);
-    z-index: 500;
+    height: 100vh;
+    z-index: 5000;
     display: none;
   }
   
