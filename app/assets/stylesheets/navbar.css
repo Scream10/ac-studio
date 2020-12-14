@@ -13,6 +13,7 @@ nav {
   }
   
   #ac {
+    z-index: -1;
     color: #649d66;
   }
   
@@ -124,3 +125,28 @@ nav {
     border-radius: 50%;
   }
   
+  .logo {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    position: relative;
+  }
+
+  .logo-img {
+    position: relative;
+    top: -10px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .logo .img-top {
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    z-index: 99;
+  }
+
+  .logo:hover .img-top {
+      display: inline;
+  }

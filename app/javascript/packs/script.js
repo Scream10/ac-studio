@@ -80,16 +80,6 @@ function hideInfo() {
 
 // -------------NAVBAR EFFECT---------------- //
 
-ac.addEventListener("mouseover", () => {
-  ac.textContent = "STUDIO";
-  ac.style.color = "#70C9FC";
-});
-
-ac.addEventListener("mouseleave", () => {
-  ac.textContent = "AC";
-  ac.style.color = "#649d66";
-});
-
 o.addEventListener("mouseover", () => {
   o.textContent = "Object";
   o.style.color = "#649d66";
