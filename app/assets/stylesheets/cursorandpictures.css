@@ -278,6 +278,12 @@
   }
   
   .show-pictures.active::-webkit-scrollbar-thumb {
+    background-color: #A6C2A0;
+    border: 3px solid #fbfbf9;
+    margin: 10px;
+  }
+
+  .show-pictures-blue.active::-webkit-scrollbar-thumb {
     background-color: #64abe8;
     border: 3px solid rgba(209, 232, 249, 1);
     margin: 10px;
