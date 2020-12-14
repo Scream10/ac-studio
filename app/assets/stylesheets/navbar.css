@@ -126,25 +126,26 @@ nav {
   }
   
   .logo {
-    height: 80px;
-    width: 80px;
+    max-height: 80px;
+    max-width: 80px;
     display: inline-block;
     position: relative;
   }
 
   .logo-img {
     position: relative;
-    top: -10px;
-    height: 80px;
-    width: 80px;
+    max-height: 80px;
+    max-width: 80px;
   }
 
   .logo .img-top {
     display: none;
     position: absolute;
-    top: -10px;
-    left: 0;
+    left: -8px;
+    top: -22px;
     z-index: 99;
+    max-height: 130px;
+    max-width: 130px;
   }
 
   .logo:hover .img-top {
