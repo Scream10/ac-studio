@@ -78,28 +78,6 @@ function hideInfo() {
   gray.classList.remove('open');
 };
 
-// -------------NAVBAR EFFECT---------------- //
-
-o.addEventListener("mouseover", () => {
-  o.textContent = "Object";
-  o.style.color = "#649d66";
-});
-
-o.addEventListener("mouseleave", () => {
-  o.textContent = "O";
-  o.style.color = "#649d66";
-});
-
-s.addEventListener("mouseover", () => {
-  s.textContent = "Space";
-  s.style.color = "#70C9FC";
-});
-
-s.addEventListener("mouseleave", () => {
-  s.textContent = "S";
-  s.style.color = "#70C9FC";
-});
-
 // ----------HOVER YEAR COLOR RED------------ //
 
 let year2017 = document.querySelector("#project-year-2017");

@@ -57,9 +57,13 @@
     margin-left: -15px;
     position: absolute;
     text-align: right;
-    color: #EE8070;
+    color: #649d66;
     width: 100%;
     opacity: 0;
+  }
+
+  .pictures-title-blue {
+    color: #99bfe0;
   }
   
   #pictures-stade {

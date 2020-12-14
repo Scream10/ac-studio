@@ -44,7 +44,7 @@ nav {
   }
   
   #o, #s, #ac {
-    z-index: 1500;
+    z-index: 100;
   }
   
   /* The switch - the box around the slider */
