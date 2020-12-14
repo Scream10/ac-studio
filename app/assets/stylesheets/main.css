@@ -36,23 +36,22 @@ body {
     display: flex;
     justify-content: center;
   }
+  .layer-header, .layer-theme h3, .separator {
+    animation: fadeIn 1s ease-in-out;
+  }
   .layer-theme h3, .separator {
     margin: 50px;
+    animation-duration: 2s;
   }
   .separator {
     width: 2px;
     height: 30px;
     background-color: rgba(0 ,0 ,0 ,.6);
   }
-  .open .layer:nth-child(1)
-  {
-    background: #000;
-    z-index: 2;
-  }
-  .open .layer:nth-child(2)
+  .open .layer
   {
     background: white;
-    animation-delay: 1.5s;
+    animation-delay: 2s;
     z-index: 1;
   }
   @keyframes open
@@ -64,6 +63,15 @@ body {
     100%
     {
      transform: scaleY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
     }
   }
   
