@@ -25,53 +25,65 @@ body {
     animation: open 1s ease-in-out forwards;
   }
   .layer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     width: 100%;
   }
-  .layer-header {
+  .layer-img {
+    width: 600px;
+    object-fit: cover;
     text-align: center;
-    margin-top: 20%;
+    animation: flash .8s;
+    animation-iteration-count: 3;
   }
-  .layer-theme {
-    display: flex;
-    justify-content: center;
-  }
-  .layer-header, .layer-theme h3, .separator {
-    animation: fadeIn 1s ease-in-out;
-  }
-  .layer-theme h3, .separator {
-    margin: 50px;
-    animation-duration: 2s;
-  }
-  .separator {
-    width: 2px;
-    height: 30px;
-    background-color: rgba(0 ,0 ,0 ,.6);
+  img:nth-child(2).layer-img {
+    animation-delay: .4s;
   }
   .openning .layer
   {
     background: white;
-    animation-delay: 2s;
+    animation-delay: 3.5s;
     z-index: 1;
   }
   @keyframes open
   {
     0%
     {
-     transform: scaleY(1);
+     opacity: 1;
     }
     100%
     {
-     transform: scaleY(0);
+     opacity: 0;  
     }
   }
 
-  @keyframes fadeIn {
+  @keyframes left
+  {
+    0%
+    {
+     left: 0;
+    }
+    100%
+    {
+     left: -200px;
+    }
+  }
+
+  @keyframes flash {
     0% {
-      opacity: 0;
+      opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
     }
     100% {
-      opacity: 1;
+        opacity: 0;
     }
   }
   
