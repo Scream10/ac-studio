@@ -8,7 +8,7 @@
             </div>
         </div>
     </div>
-
+    
     <nav>
         <div id="ac" class="mail logo">
             <%= cl_image_tag("semi_b1yg67", :class=>"logo-img", :alt=>"semi") %>
@@ -161,6 +161,40 @@
                 </div>
             </div>
             <div class="project-chronology"></div>
+            <div class="project-chronology open-pictures">
+                <div class="scroll-y">
+                    <div class="show-pictures">
+                        <div class="pictures-information">
+                            <p>Table à café</p>
+                            <p>2020</p>
+                            <p>?</p>
+                        </div>
+                        <div id="pictures-cafe" class="allpictures pictures-2020 lastpicturehide">
+                            <%= cl_image_tag("cafe4_llwb8a", :class=>"pictures grayscale", :alt=>"cafe4") %>
+                            <div class="pictures-title">Table à café</div>
+                        </div>
+                        <div class="chair-front">
+                            <%= cl_image_tag("TableVaseFront_hlozia", :alt=>"Table Vase") %>
+                        </div>
+                        <div class="show-pictures-hide active">
+                            <div>
+                                <%= cl_image_tag("cafe1_pufp8c", :class=>"show-pictures-1", :alt=>"cafe1") %>
+                                <%= cl_image_tag("cafe2_ltu2mx", :class=>"show-pictures-2", :alt=>"cafe2") %>
+                            </div>
+                            <div>
+                                <%= cl_image_tag("cafe3_dqfxgn", :class=>"show-pictures-3", :alt=>"cafe3") %>
+                                <%= cl_image_tag("cafe5_t0yjfo", :class=>"show-pictures-4", :alt=>"cafe5") %>
+                            </div>
+                            <div class="show-text">
+                                <h3>Table à café, 2020</h3>
+                                <p>
+                                    Description à compléter
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="project-chronology"></div>
             <div class="project-chronology open-pictures">
                 <div class="scroll-y">
@@ -326,25 +360,21 @@
                 <div class="scroll-y">
                     <div class="show-pictures">
                         <div class="pictures-information">
-                            <p>Table à café</p>
+                            <p>Cinéma</p>
                             <p>2020</p>
                             <p>?</p>
                         </div>
-                        <div id="pictures-cafe" class="allpictures pictures-2020 lastpicturehide">
-                            <%= cl_image_tag("cafe4_llwb8a", :class=>"pictures grayscale", :alt=>"cafe4") %>
-                            <div class="pictures-title">Table à café</div>
+                        <div id="pictures-hydros" class="allpictures pictures-2020">
+                            <%= cl_image_tag("cinema2_zvkpc3", :class=>"pictures grayscale", :alt=>"cinema2") %>
+                            <div class="pictures-title">Cinéma</div>
                         </div>
                         <div class="show-pictures-hide active">
                             <div>
-                                <%= cl_image_tag("cafe1_pufp8c", :class=>"show-pictures-1", :alt=>"cafe1") %>
-                                <%= cl_image_tag("cafe2_ltu2mx", :class=>"show-pictures-2", :alt=>"cafe2") %>
-                            </div>
-                            <div>
-                                <%= cl_image_tag("cafe3_dqfxgn", :class=>"show-pictures-3", :alt=>"cafe3") %>
-                                <%= cl_image_tag("cafe5_t0yjfo", :class=>"show-pictures-4", :alt=>"cafe5") %>
+                                <%= cl_image_tag("cinema3_kkgf02", :class=>"show-pictures-1", :alt=>"cinema3") %>
+                                <%= cl_image_tag("cinema1_khwjpj", :class=>"show-pictures-2", :alt=>"cinema1") %>
                             </div>
                             <div class="show-text">
-                                <h3>Table à café, 2020</h3>
+                                <h3>Cinéma, 2020</h3>
                                 <p>
                                     Description à compléter
                                 </p>
@@ -371,9 +401,6 @@
                 </div>
             </div>
 
-            <div class="chair-front">
-                <%= cl_image_tag("TableVaseFront_hlozia", :alt=>"Table Vase") %>
-            </div>
         </div>
 
     </div>
