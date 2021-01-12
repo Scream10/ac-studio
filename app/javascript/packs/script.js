@@ -43,17 +43,6 @@ mail.forEach(mail => {
   });
 });
 
-background.forEach(bg => {
-  bg.addEventListener("mouseleave", () => {
-    year.classList.add("hidden");
-    year.classList.remove("z-index-1000");
-  });
-  bg.addEventListener("mouseover", () => {
-    year.classList.remove("hidden");
-    year.classList.remove("z-index-1000");
-  });
-});
-
 chair.forEach(c => {
   c.addEventListener("mouseleave", () => {
     year.classList.add("hidden");
@@ -89,6 +78,18 @@ pictures2017.forEach(pictures => {
   });
   pictures.addEventListener("mouseleave", () => {
     year2017.style.color = "";
+  });
+});
+
+let year2018 = document.querySelector("#project-year-2018");
+let pictures2018 = document.querySelectorAll(".pictures-2018");
+
+pictures2018.forEach(pictures => {
+  pictures.addEventListener("mouseover", () => {
+    year2018.style.color = "#EE8070";
+  });
+  pictures.addEventListener("mouseleave", () => {
+    year2018.style.color = "";
   });
 });
 
@@ -184,56 +185,3 @@ imgPic.forEach( img => {
   });
 
 });
-
-// let chairFront = document.querySelectorAll(".chair-front");
-
-// chairFront.forEach( chair => {
-//   let openPic = chair.closest(".open-pictures");
-//   let scrollY = chair.closest(".scroll-y");
-//   let openPicImg = chair.closest(".open-pictures img");
-//   let chairFront = document.querySelector(".chair-front");
-//   let showPictures = chair.closest(".show-pictures");
-//   let allPictures = chair.closest(".allpictures");
-
-//   chair.addEventListener("click", () => {
-//     showPictures.style.display = "flex";
-//     showPictures.style.visibility = "visible";
-//     showPictures.style.height = "";
-//     showPictures.style.width = "auto";
-//     showPictures.style.padding = "0px 40px 40px 40px";
-//     showPictures.classList.add("active");
-//     openPic.style.width = "1100px";
-//     openPic.style.height = "calc(100vh - 84px)";
-//     openPic.classList.add("active");
-//     openPicImg.style.maxHeight = "30rem";
-//     openPicImg.style.maxWidth = "30rem";
-//     openPicImg.style.filter = "none";
-//     scrollY.style.height = "";
-//     scrollY.style.top = "0";
-//     chairFront.style.display = "none";
-//     year.style.opacity = "0";
-//     allPictures.style.position = "initial";
-//   });
-
-//   document.addEventListener('mouseup', function(e) {
-//     if (!openPic.contains(e.target)) {
-//       openPic.style.width = '250px';
-//       openPic.style.height = "80vh";
-//       openPic.classList.remove("active");
-//       openPicImg.style.maxHeight = "";
-//       openPicImg.style.maxWidth = "";
-//       openPicImg.style.left = "";
-//       openPicImg.style.filter = "";
-//       showPictures.style.display = "";
-//       showPictures.style.visibility = "";
-//       showPictures.style.height = "";
-//       showPictures.style.width = "";
-//       showPictures.style.padding = "";
-//       showPictures.classList.remove("active");
-//       scrollY.style.height = "0";
-//       chairFront.style.display = "";
-//       year.style.opacity = "";
-//       allPictures.style.position = "";
-//     }
-//   });
-// });
