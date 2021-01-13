@@ -93,6 +93,17 @@ pictures2018.forEach(pictures => {
   });
 });
 
+let year2018space = document.querySelector("#project-year-2018-space");
+
+pictures2018.forEach(pictures => {
+  pictures.addEventListener("mouseover", () => {
+    year2018space.style.color = "#EE8070";
+  });
+  pictures.addEventListener("mouseleave", () => {
+    year2018space.style.color = "";
+  });
+});
+
 let year2019 = document.querySelector("#project-year-2019");
 let pictures2019 = document.querySelectorAll(".pictures-2019");
 
@@ -105,6 +116,17 @@ pictures2019.forEach(pictures => {
   });
 });
 
+let year2019space = document.querySelector("#project-year-2019-space");
+
+pictures2019.forEach(pictures => {
+  pictures.addEventListener("mouseover", () => {
+    year2019space.style.color = "#EE8070";
+  });
+  pictures.addEventListener("mouseleave", () => {
+    year2019space.style.color = "";
+  });
+});
+
 let year2020 = document.querySelector("#project-year-2020");
 let pictures2020 = document.querySelectorAll(".pictures-2020");
 
@@ -114,6 +136,29 @@ pictures2020.forEach(pictures => {
   });
   pictures.addEventListener("mouseleave", () => {
     year2020.style.color = "";
+  });
+});
+
+let year2020space = document.querySelector("#project-year-2020-space");
+
+pictures2020.forEach(pictures => {
+  pictures.addEventListener("mouseover", () => {
+    year2020space.style.color = "#EE8070";
+  });
+  pictures.addEventListener("mouseleave", () => {
+    year2020space.style.color = "";
+  });
+});
+
+let year2021 = document.querySelector("#project-year-2021-space");
+let pictures2021 = document.querySelectorAll(".pictures-2021");
+
+pictures2021.forEach(pictures => {
+  pictures.addEventListener("mouseover", () => {
+    year2021.style.color = "#EE8070";
+  });
+  pictures.addEventListener("mouseleave", () => {
+    year2021.style.color = "";
   });
 });
 

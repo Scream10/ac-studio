@@ -124,39 +124,56 @@ body {
   #project-year {
     z-index: -1;
   }
-  
-  #project-year-2017 {
+
+  #project-year-2017, #project-year-2018, #project-year-2019, #project-year-2020, #project-year-2018-space, #project-year-2019-space, #project-year-2020-space, #project-year-2021-space {
     position: absolute;
-    bottom: 50px;
-    left: 233px;
     color: transparent;
   }
   
+  #project-year-2017 {
+    bottom: 50px;
+    left: 233px;
+  }
+  
   @media (max-height: 850px) {
-    #project-year-2017, #project-year-2019 {
+    #project-year-2017, #project-year-2019, #project-year-2019-space {
       bottom: 27px !important;
     }
   }
   
   #project-year-2018 {
-    position: absolute;
     top: -15px;
     left: 985px;
-    color: transparent;
   }
   
   #project-year-2019 {
-    position: absolute;
     bottom: 50px;
     left: 1739px;
-    color: transparent;
   }
   
   #project-year-2020 {
-    position: absolute;
     top: -15px;
     left: 2491px;
-    color: transparent;
+  }
+
+  #project-year-2018-space {
+    top: -15px;
+    left: 483px;
+  }
+
+  #project-year-2019-space {
+    bottom: 50px;
+    left: 986px;
+  }
+
+  #project-year-2020-space {
+    top: -15px;
+    left: 1990px;
+  }
+
+  #project-year-2021-space {
+    bottom: 50px;
+    left: 2994px;
   }
   
   .hidden {

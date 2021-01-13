@@ -208,7 +208,7 @@
     position: relative;
   }
   
-  .pictures-2017, .pictures-2018, .pictures-2019, .pictures-2020 {
+  .pictures-2017, .pictures-2018, .pictures-2019, .pictures-2020, .pictures-2021 {
     visibility: visible;
   }
   
@@ -216,6 +216,11 @@
     margin: 15px;
     max-width: 32rem;
     max-height: 32rem;
+  }
+
+  .show-pictures-1, .show-pictures-2 {
+    max-width: 29rem !important;
+    max-height: 29rem !important;
   }
   
   .show-pictures-3 {
