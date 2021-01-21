@@ -168,7 +168,7 @@
 
 #pictures-cafe {
   position: absolute;
-  bottom: 100px;
+  bottom: -50px;
   left: -120px;
 }
 
@@ -178,8 +178,8 @@
 
 #pictures-cafe img {
   position: relative;
-  max-height: 18rem;
-  max-width: 18rem;
+  max-height: 24rem;
+  max-width: 24rem;
 }
 
 #pictures-cari {
@@ -193,6 +193,22 @@
 }
 
 #pictures-cari img {
+  position: relative;
+  max-height: 18rem;
+  max-width: 18rem;
+}
+
+#pictures-boat {
+  position: absolute;
+  top: 30px;
+  left: -140px;
+}
+
+#pictures-boat:hover .pictures-title {
+  opacity: 1;
+}
+
+#pictures-boat img {
   position: relative;
   max-height: 18rem;
   max-width: 18rem;
@@ -212,6 +228,38 @@
   position: relative;
   max-height: 40rem;
   max-width: 40rem;
+}
+
+#pictures-playspace {
+  position: absolute;
+  bottom: 200px;
+  left: -100px;
+}
+
+#pictures-playspace:hover .pictures-title {
+  opacity: 1;
+}
+
+#pictures-playspace img {
+  position: relative;
+  max-height: 20rem;
+  max-width: 20rem;
+}
+
+#pictures-rooftop {
+  position: absolute;
+  top: 140px;
+  left: -120px;
+}
+
+#pictures-rooftop:hover .pictures-title {
+  opacity: 1;
+}
+
+#pictures-rooftop img {
+  position: relative;
+  max-height: 20rem;
+  max-width: 20rem;
 }
 
 .show-pictures {
@@ -334,14 +382,14 @@
 }
 
 .show-pictures-mer-10 {
-  top: -140px;
+  top: -90px;
   left: -70px;
   max-width: 15rem !important;
   max-height: 15rem !important;
 }
 
 .show-pictures-mer-11 {
-  top: -190px;
+  top: -140px;
   background-position: 25% 75%;
   object-fit: cover;
   height: 240px;
