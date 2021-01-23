@@ -169,7 +169,7 @@
 #pictures-cafe {
   position: absolute;
   bottom: -70px;
-  left: -170px;
+  left: -190px;
 }
 
 #pictures-cafe:hover .pictures-title {
@@ -178,8 +178,8 @@
 
 #pictures-cafe img {
   position: relative;
-  max-height: 30rem;
-  max-width: 30rem;
+  max-height: 37rem;
+  max-width: 37rem;
 }
 
 #pictures-cari {
