@@ -262,6 +262,22 @@
   max-width: 20rem;
 }
 
+#pictures-cinema {
+  position: absolute;
+  top: 40px;
+  left: -150px;
+}
+
+#pictures-cinema:hover .pictures-title {
+  opacity: 1;
+}
+
+#pictures-cinema img {
+  position: relative;
+  max-height: 18rem;
+  max-width: 18rem;
+}
+
 .show-pictures {
   visibility: hidden;
   flex-direction: column;
